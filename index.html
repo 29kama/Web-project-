@@ -1,0 +1,274 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Sen:wght@400;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa&family=Playfair+Display:wght@900&display=swap" rel="stylesheet">
+    <title>Web Project</title>
+</head>
+
+<body>
+
+
+    <div class="navbar" style="display: flex; color: white;">
+        <div class="navbar-container">
+            <div class="logo-container">
+                <h1 class="logo">SerialLand</h1>
+            </div>
+        </div>
+
+        <div class="menu-container">
+            <ul class="menu-list">
+                <li class="menu-list-item active">Главная</li>
+                <li class="menu-list-item"><a href="#listik" style="color: white; text-decoration: none;">Сериалы</a></li>
+                <li class="menu-list-item"><a href="#kama" style="color: white; text-decoration: none;">Аниме</li>
+                <li class="menu-list-item"><a href="#qwerty" style="color: white; text-decoration: none;">Дорамы</a></li>
+                <li class="menu-list-item"><a href="#zhumabayeva" style="color: white; text-decoration: none;">Мультфильмы</a></li>
+
+            </ul>
+        </div>
+        <div class="profile-container">
+            <img class="profile-picture" src="img/kama.jpg" alt="">
+            <div class="profile-text-container">
+                <span class="profile-text"><a href="index2.html" style="color: white; text-decoration: none;">Profile</a></span>
+                <i class="fas fa-caret-down"></i>
+            </div>
+
+        </div>
+    </div>
+    <div class="sidebar">
+        <i class="left-menu-icon fas fa-search"></i>
+        <i class="left-menu-icon fas fa-home"></i>
+        <i class="left-menu-icon fas fa-users"></i>
+        <i class="left-menu-icon fas fa-bookmark"></i>
+        <i class="left-menu-icon fas fa-tv"></i>
+        <i class="left-menu-icon fas fa-hourglass-start"></i>
+        <i class="left-menu-icon fas fa-shopping-cart"></i>
+    </div>
+    <div class="container">
+        <div class="content-container">
+            <div class="featured-content" style="background: linear-gradient(to bottom, rgba(0,0,0,0), #151515), url('img/tron.jpg'); background-position: top; background-size: cover;">
+
+                <br>
+                <br><br>
+                <br>
+                <br>
+                <br>
+                <p class="featured-desc" style="margin: 120px 0 30px;">Игра престолов <br> Мертвецы и драконы — в эпической битве за судьбы мира. Сериал, который навсегда изменил телевидение</p>
+                <button class="featured-button">Смотреть</button>
+            </div>
+            <div class="movie-list-container">
+                <h1 class="movie-list-title" id="listik">Сериалы</h1>
+                <div class="movie-list-wrapper">
+                    <div class="movie-list">
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/theboys.jpg" alt="">
+                            <span class="movie-list-item-title">Пацаны</span>
+                            <p class="movie-list-item-desc">Жанр: Боевики, Драмы, Криминал, Комедии, Фантастика. </p>
+                            <button class="movie-list-item-button">Подробнее</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/howtogetaway.jpg" alt="">
+                            <span class="movie-list-item-title">Как избежать наказания за убийства</span>
+                            <p class="movie-list-item-desc">Жанр: Юридическая драма, детектив, триллер</p>
+                            <button class="movie-list-item-button">Подробнее</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/dom.jpg" alt="">
+                            <span class="movie-list-item-title">Отчаянные домохозяйки</span>
+                            <br>
+                            <p class="movie-list-item-desc">Жанр:Драма, мелодрама, комедия</p>
+                            <button class="movie-list-item-button">Подробнее</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/vedmak.jpg" alt="">
+                            <span class="movie-list-item-title">Ведьмак</span>
+                            <p class="movie-list-item-desc">Жанр: фэнтези, драма, приключения</p>
+                            <button class="movie-list-item-button">Подробнее</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/wednesday.jpg" alt="">
+                            <span class="movie-list-item-title">Уэнсдей</span>
+                            <p class="movie-list-item-desc">Жанр: фэнтези, комедия, преступление, детектив</p>
+                            <button class="movie-list-item-button">Подробнее</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/pealy.jpg" alt="">
+                            <span class="movie-list-item-title">Острые козырьки</span>
+                            <p class="movie-list-item-desc">Жанр: драма, преступление</p>
+                            <button class="movie-list-item-button">Подробнее</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/georgia.jpg" alt="">
+                            <span class="movie-list-item-title">Джинни и Джорджия</span>
+                            <p class="movie-list-item-desc">Жанр: драма, комедия</p>
+                            <button class="movie-list-item-button">Подробнее</button>
+                        </div>
+                    </div>
+                    <i class="fas fa-chevron-right arrow"></i>
+                </div>
+            </div>
+            <div class="movie-list-container">
+                <h1 class="movie-list-title" id="kama"> Аниме</h1>
+                <div class="movie-list-wrapper">
+                    <div class="movie-list">
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/123.jpg" alt="">
+                            <span class="movie-list-item-title">Наруто</span>
+                            <p class="movie-list-item-desc">Жанр:боевые искусства, приключения, фэнтези</p>
+                            <button class="movie-list-item-button">Подробнее</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/1234.jpg" alt="">
+                            <span class="movie-list-item-title">Тетрадь смерти</span>
+                            <p class="movie-list-item-desc">Жанр: ужасы, детектив, триллер, преступление</p>
+                            <button class="movie-list-item-button">Подробнее</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/12345.jpg" alt="">
+                            <span class="movie-list-item-title">Охотник х Охотник</span>
+                            <p class="movie-list-item-desc">Жанр: фэнтези, приключения</p>
+                            <button class="movie-list-item-button">Подробнее</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/123456.jpg" alt="">
+                            <span class="movie-list-item-title">Магическая битва</span>
+                            <p class="movie-list-item-desc">Жанр: аниме, мультфильм, боевик, ужасы, фэнтези</p>
+                            <button class="movie-list-item-button">Подробнее</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/1234567.jpg" alt="">
+                            <span class="movie-list-item-title">Игра друзей</span>
+                            <p class="movie-list-item-desc">Жанр: аниме, мультфильм, драма</p>
+                            <button class="movie-list-item-button">Подробнее</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/ataka.jpg" alt="">
+                            <span class="movie-list-item-title">Атака титанов</span>
+                            <p class="movie-list-item-desc">Жанр: аниме, мультфильм, фантастика, драма, боевик</p>
+                            <button class="movie-list-item-button">Подробнее</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/voleyball.jpg" alt="">
+                            <span class="movie-list-item-title">Волейбол</span>
+                            <p class="movie-list-item-desc">Комедия, спорт, приключения</p>
+                            <button class="movie-list-item-button">Подробнее</button>
+                        </div>
+                    </div>
+                    <i class="fas fa-chevron-right arrow"></i>
+                </div>
+            </div>
+            <div class="featured-content" style="background: linear-gradient(to bottom, rgba(0,0,0,0), #151515), url('img/kmm.jpg');">
+
+                <p class="featured-desc">SerialLAND- сервис, где вы сможете посмотреть сериалы сколько угодно и когда угодно совершенно бесплатно. В хорошей озвучке и без рекламы. </p>
+                <button class="featured-button">Смотреть</button>
+            </div>
+            <div class="movie-list-container">
+                <h1 class="movie-list-title" id="qwerty">Дорамы</h1>
+                <div class="movie-list-wrapper">
+                    <div class="movie-list">
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/www.jpg" alt="">
+                            <span class="movie-list-item-title">Параллельные миры</span>
+                            <p class="movie-list-item-desc">Жанр: мелодрама,фантастика</p>
+                            <button class="movie-list-item-button">Подробнее</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/igra.png" alt="">
+                            <span class="movie-list-item-title">Игра в кальмара</span>
+                            <p class="movie-list-item-desc">Жанр: триллер, драма, выживание, мистика</p>
+                            <button class="movie-list-item-button">Подробнее</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/kim.jpg" alt="">
+                            <span class="movie-list-item-title">Императрица Ки</span>
+                            <p class="movie-list-item-desc">Жанр: приключения, Романтика, История</p>
+                            <button class="movie-list-item-button">Подробнее</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/zombie.jpg" alt="">
+                            <span class="movie-list-item-title">Мы все мертвы</span>
+                            <p class="movie-list-item-desc">Жанр: апокалипсис, боевик, драма, ужасы</p>
+                            <button class="movie-list-item-button">Подробнее</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/potomki.jpg" alt="">
+                            <span class="movie-list-item-title">Потомки солнца</span>
+                            <p class="movie-list-item-desc">Мелодрама, Романтика, Боевик</p>
+                            <button class="movie-list-item-button">Подробнее</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/istinnaya.jpg" alt="">
+                            <span class="movie-list-item-title">Истинная красота</span>
+                            <p class="movie-list-item-desc">Романтика, Комедия </p>
+                            <button class="movie-list-item-button">Подробнее</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/slava.jpg" alt="">
+                            <span class="movie-list-item-title">Слава</span>
+                            <p class="movie-list-item-desc">Жанр: Драма, Мелодрама.</p>
+                            <button class="movie-list-item-button">Подробнее</button>
+                        </div>
+                    </div>
+                    <i class="fas fa-chevron-right arrow"></i>
+                </div>
+            </div>
+            <div class="movie-list-container">
+                <h1 class="movie-list-title" id="zhumabayeva">Мультфильмы</h1>
+                <div class="movie-list-wrapper">
+                    <div class="movie-list">
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/zveropoi.jpg" alt="">
+                            <span class="movie-list-item-title">Зверопой</span>
+
+                            <button class="movie-list-item-button">Подробнее</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/zveropolis.jpg" alt="">
+                            <span class="movie-list-item-title">Зверополис</span>
+
+                            <button class="movie-list-item-button">Подробнее</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/dusha.jpg" alt="">
+                            <span class="movie-list-item-title">Душа</span>
+
+                            <button class="movie-list-item-button">Подробнее</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/lil i.jpeg" alt="">
+                            <span class="movie-list-item-title">Лил и Стич</span>
+
+                            <button class="movie-list-item-button">Подробнее</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/taina koko.jpg" alt="">
+                            <span class="movie-list-item-title">Тайна Коко</span>
+
+                            <button class="movie-list-item-button">Подробнее</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/madagaskar.jpg" alt="">
+                            <span class="movie-list-item-title">Мадагаскар</span>
+
+                            <button class="movie-list-item-button">Подробнее</button>
+
+
+                        </div>
+                        <i class="fas fa-chevron-right arrow"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="file.js"></script>
+</body>
+
+</html>
